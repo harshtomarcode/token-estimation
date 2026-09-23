@@ -1,3 +1,11 @@
+# Keep local evaluation inputs, outputs, and tooling out of the lightweight repo.
+/data/
+/benchmark/
+/benchmark.py
+/collect_documents.py
+/collect_web.py
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
